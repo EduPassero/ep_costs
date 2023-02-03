@@ -1,0 +1,150 @@
+{
+  "projects": [
+    {
+      "name": "Criaçao de Marca",
+      "budget": "2500",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 600,
+      "services": [
+        {
+          "name": "Teste",
+          "cost": "200",
+          "description": "teste",
+          "id": "fd50b03d-a463-406d-8a6d-c3690bc50ce6"
+        },
+        {
+          "name": "Serviço 2",
+          "cost": "100",
+          "description": "Serviço de teste",
+          "id": "8681a595-666b-46d3-bff1-8d5075dea264"
+        },
+        {
+          "name": "Serviço 2",
+          "cost": "100",
+          "description": "Serviço de teste",
+          "id": "8681a595-666b-46d3-bff1-8d5075dea264"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Criaçao de Site",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 200,
+      "services": [
+        {
+          "name": "Teste",
+          "cost": "100",
+          "description": "Teste",
+          "id": "493af7a6-d551-4602-8649-94d7c7155392"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Documentar Projeto",
+      "budget": "6000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 60,
+      "services": [
+        {
+          "name": "Inception",
+          "cost": "20",
+          "description": "Testando",
+          "id": "d07c184e-8c3d-40c3-920c-3ea2fbf6fc5a"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Montar Servidores",
+      "budget": "10000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 400,
+      "services": [
+        {
+          "name": "Teste de Serviço",
+          "cost": "400",
+          "description": "Teste de inserçao",
+          "id": "0e52ab21-3d47-4a5c-8bc5-20e5c3d0c28b"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Hackear NASA",
+      "budget": "50",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "name": "Hackear FBI",
+      "budget": "10",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "name": "Hackear CIA",
+      "budget": "30",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 7
+    },
+    {
+      "name": "\"Conseguir\" satélite",
+      "budget": "444",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
