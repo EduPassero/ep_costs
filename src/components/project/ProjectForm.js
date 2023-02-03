@@ -9,7 +9,7 @@ function ProjectForm({handleSubmit, projectData, btnText}){
     const [project, setProject] = useState(projectData || {})
 
     useEffect(() => {
-        fetch('http://localhost:5000/categories', {
+        fetch('https://my-json-server.typicode.com/edupassero/costs_db/categories', {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',

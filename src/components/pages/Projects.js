@@ -20,7 +20,7 @@ function Projects(){
 
     useEffect(() => {
         setTimeout(() =>{
-            fetch('http://localhost:5000/projects', {
+            fetch('https://my-json-server.typicode.com/edupassero/costs_db/projects', {
             method: 'GET',
             header: {
                 'Content-Type': 'application/json',
@@ -38,7 +38,7 @@ function Projects(){
 
     function removeProjects(id)
     {
-        fetch(`http://localhost:5000/projects/${id}`, {
+        fetch(`https://my-json-server.typicode.com/edupassero/costs_db/projects/${id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'

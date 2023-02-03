@@ -20,7 +20,7 @@ function Project(){
 
     useEffect(() => {
         setTimeout(() =>{
-            fetch(`http://localhost:5000/projects/${id}`, {
+            fetch(`https://my-json-server.typicode.com/edupassero/costs_db/projects/${id}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
@@ -42,7 +42,7 @@ function Project(){
             return false
         }
 
-        fetch(`http://localhost:5000/projects/${project.id}`, {
+        fetch(`https://my-json-server.typicode.com/edupassero/costs_db/projects/${project.id}`, {
             method : 'PATCH',
             headers: {
                 'Content-Type': 'application/json'
@@ -87,7 +87,7 @@ function Project(){
 
         project.cost = newCost
 
-        fetch(`http://localhost:5000/projects/${project.id}`, {
+        fetch(`https://my-json-server.typicode.com/edupassero/costs_db/projects/${project.id}`, {
             method: 'PATCH',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(project)
